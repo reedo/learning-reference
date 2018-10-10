@@ -28,7 +28,7 @@ const user = {
   name: 'Dan',
   age: 27,
   hobby: 'Coding',
-  isMarried: false
+  isMarried: false,
 };
 
 //this data can be used by referring to <object>.<
