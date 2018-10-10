@@ -10,14 +10,14 @@ for (let i = 0; i < myArray.length; i++) {
 //--------------------------------------------------------------------------
 //same result, but using forEach
 
-const newArray2 = [];
-myArray.forEach(num => newArray2.push(num * 2));
+const newArray = [];
+myArray.forEach(num => newArray.push(num * 2));
 
 //--------------------------------------------------------------------------
 //same result, but using map
 //map is safer than forEach, because it requires the function to return an element each time
 
-const newArray3 = myArray.map(num => num * 2);
+const newArray = myArray.map(num => num * 2);
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
 //filter

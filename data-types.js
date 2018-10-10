@@ -11,3 +11,12 @@ const obj = {}; //a pointer to an object in memory. It is good practice to make 
 //                be overwritten (if an object has no pointers to it, it will be removed from memory)
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
+//backtick strings
+
+const myString = ``;
+
+const myString = ``;
+
+const myString = ``;
+
+/* ------------------------------------------------------------------------------------------------------------------------- */

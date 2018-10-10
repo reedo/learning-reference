@@ -1,4 +1,34 @@
 /* ------------------------------------------------------------------------------------------------------------------------- */
+//old vs new function syntax
+//old
+
+function sum(a, b) {
+  return a + b;
+}
+
+//--------------------------------------------------------------------------
+//new
+
+const sum = (a, b) => {
+  return a + b;
+};
+
+//--------------------------------------------------------------------------
+//if the return statement is a single line, the curly bracksts and the return keyword can be omitted
+
+const sum = (a, b) => a + b;
+
+//--------------------------------------------------------------------------
+//if there is only one parameter, the brackets can be omitted
+
+const double = a => a * 2;
+
+//--------------------------------------------------------------------------
+//functions can also be anonymous
+
+a => a * 2;
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
 //closures
 //keeps greet in its own scope, so its never mixed up with another variable called greet
 
