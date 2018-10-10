@@ -34,7 +34,7 @@ const filteredArray = myArray.filter(num => num > 5); //returns an array contain
 
 const reducedArray = myArray.reduce(
   (accumulator, number) => accumulator + number, //a function that adds eaach number to the accumulator
-  initialValue //the starting value for the accumulator
+  initialValue, //the starting value for the accumulator
 );
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
