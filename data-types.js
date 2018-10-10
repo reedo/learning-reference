@@ -15,8 +15,22 @@ const obj = {}; //a pointer to an object in memory. It is good practice to make 
 
 const myString = ``;
 
-const myString = ``;
+const myString = `These strings don't need to / \ be "escaped"!`;
 
-const myString = ``;
+const myString = `They also don't need to be concatinated with "a" + "b",
+                  but you can do ${a + b} or refer to your friend ${name}!`;
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+//objects
+//can have an arbitrary number of key-value pairs
+
+const user = {
+  name: 'Dan',
+  age: 27,
+  hobby: 'Coding',
+  isMarried: false
+};
+
+//this data can be used by referring to <object>.<
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
