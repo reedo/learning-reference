@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/reedo/learning-reference#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.6.1"
   }
 }
