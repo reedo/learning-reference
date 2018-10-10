@@ -1,0 +1,19 @@
+{
+  "name": "learning-reference",
+  "version": "1.0.0",
+  "description": "General JavaScript reference material",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reedo/learning-reference.git"
+  },
+  "author": "reedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reedo/learning-reference/issues"
+  },
+  "homepage": "https://github.com/reedo/learning-reference#readme"
+}
